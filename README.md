@@ -12,8 +12,8 @@ composer require agustind/ethsignature
 ```php
 <?php
 
-use Agustind\Ethsignature;
-$signature = new Ethsignature();
+use Agustind\EthSignature;
+$signature = new EthSignature();
 
 // from the frontend (via Ethers.js or Web3.js)
 // the wallet 0x123456789 signs the message 'hello world'
